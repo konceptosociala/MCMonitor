@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ============ HEADER BAR =========== */
+
+* {
+    --bs-dropdown-link-active-bg: var(--bs-success);
+
+    font-family: "Poppins", sans-serif;
+}
+
+button { border: none; }
+
+.navbar {
+    padding: 30px;
+}
+
+.navbar * {
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    background-color: #e7e7e7;
+}
+
+.dropdown-item {
+    padding: 15px;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-toggler:active {
+    border-radius: 0;
+    border: none;
+}
+
+/* ============ MAIN SECTION =========== */
+
+.main-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("../img/images/main_section_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-section h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+
+.main-section h2 {
+    color: white;
+    font-weight: normal;
+    text-shadow: 2px 2px 10px black;
+}
+
+.main-section button {
+    color: white !important;
+    box-shadow: 0 0 10px var(--bs-success);  
+}
+
+/* ============ SERVERS =========== */
+
+.servers-section h1 {
+    font-weight: bold;
+}
+
+.server-logo {
+    max-width: max-content;
+}
+
+.server {
+    color: white;
+    border-radius: 25px;
+}
+
+.server-version {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.server-description {
+    font-size: 20px;
+}
